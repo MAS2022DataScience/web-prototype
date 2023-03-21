@@ -1,0 +1,10 @@
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Schema\bin\Release\netstandard2.0\Schema.deps.json
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Schema\bin\Release\netstandard2.0\Schema.dll
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Schema\bin\Release\netstandard2.0\Schema.pdb
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Schema\obj\Release\netstandard2.0\Schema.csproj.AssemblyReference.cache
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Schema\obj\Release\netstandard2.0\Schema.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Schema\obj\Release\netstandard2.0\Schema.AssemblyInfoInputs.cache
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Schema\obj\Release\netstandard2.0\Schema.AssemblyInfo.cs
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Schema\obj\Release\netstandard2.0\Schema.csproj.CoreCompileInputs.cache
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Schema\obj\Release\netstandard2.0\Schema.dll
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Schema\obj\Release\netstandard2.0\Schema.pdb

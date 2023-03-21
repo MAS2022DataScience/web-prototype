@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>com.mas2022datascience.avro.v1</id>
+    <version>1.0.5</version>
+    <title>MAS2022 - C# AVRO data classes</title>
+    <authors>Beat Suter, BizNet AG</authors>
+    <description>This library contains the C# AVRO objekts required for the MAS22 App
+      ::Ignore property 'Schema' on method call 'SerializeObject()'</description>
+    <tags>Avro objects</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Apache.Avro" version="1.11.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Schema\bin\Release\netstandard2.0\Schema.dll" target="lib\netstandard2.0\Schema.dll" />
+  </files>
+</package>

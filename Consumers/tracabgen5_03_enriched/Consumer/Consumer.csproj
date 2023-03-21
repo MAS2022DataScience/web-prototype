@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Program.cs.save01" />
+    <None Remove="Program.cs.save02" />
+    <None Remove="Program.cs.save03" />
+    <None Remove="Program.cs.save04" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="com.mas2022datascience.avro.v1" Version="1.0.5" />
+    <PackageReference Include="Confluent.Kafka" Version="2.0.2" />
+    <PackageReference Include="Confluent.SchemaRegistry" Version="2.0.2" />
+    <PackageReference Include="Confluent.SchemaRegistry.Serdes.Avro" Version="2.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+</Project>

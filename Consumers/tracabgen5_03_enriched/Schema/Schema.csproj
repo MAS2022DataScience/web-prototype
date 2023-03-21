@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>com.mas2022datascience.avro.v1</PackageId>
+    <Version>1.0.5</Version>
+    <PackageTags>Avro objects</PackageTags>
+    <Description>
+      This library contains the C# AVRO objekts required for the MAS22 App
+      ::Ignore property 'Schema' on method call 'SerializeObject()'
+    </Description>
+    <Authors>Beat Suter, BizNet AG</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>MAS2022 - C# AVRO data classes</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Apache.Avro" Version="1.11.1" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,5 @@
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Consumer\obj\Release\netstandard2.0\Consumer.csproj.AssemblyReference.cache
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Consumer\obj\Release\netstandard2.0\Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Consumer\obj\Release\netstandard2.0\Consumer.AssemblyInfoInputs.cache
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Consumer\obj\Release\netstandard2.0\Consumer.AssemblyInfo.cs
+C:\GitHub\CAS-BGD\SemesterarbeitCASBGD\.NET\Streamteam-Client\Consumer\obj\Release\netstandard2.0\Consumer.csproj.CoreCompileInputs.cache

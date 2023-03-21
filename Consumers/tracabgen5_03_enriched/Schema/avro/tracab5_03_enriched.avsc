@@ -1,0 +1,177 @@
+﻿{
+  "type": "record",
+  "name": "TracabGen5TF01",
+  "namespace": "com.mas2022datascience.avro.v1",
+  "fields": [
+    {
+      "name": "utc",
+      "type": {
+        "type": "string",
+        "avro.java.string": "String"
+      }
+    },
+    {
+      "name": "ts",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "matchId",
+      "type": [
+        "null",
+        {
+          "type": "string",
+          "avro.java.string": "String"
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "isBallInPlay",
+      "type": {
+        "type": "string",
+        "avro.java.string": "String",
+        "description": "Ball status or BallInPlay, [D is Dead, A is Alive]"
+      }
+    },
+    {
+      "name": "ballPossession",
+      "type": {
+        "type": "string",
+        "avro.java.string": "String",
+        "description": "Who has ball possession [Home, Away]"
+      }
+    },
+    {
+      "name": "contactDevInfo",
+      "type": [
+        "null",
+        {
+          "type": "string",
+          "avro.java.string": "String"
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "objects",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "name": "Object",
+          "fields": [
+            {
+              "name": "type",
+              "type": {
+                "type": "int",
+                "description": "type can be 0 (home), 1 (away) and 7 (ball)"
+              }
+            },
+            {
+              "name": "id",
+              "type": {
+                "type": "string",
+                "avro.java.string": "String",
+                "description": "player id or jersey number"
+              }
+            },
+            {
+              "name": "playerId",
+              "type": [
+                "null",
+                {
+                  "type": "string",
+                  "avro.java.string": "String"
+                }
+              ],
+              "default": null
+            },
+            {
+              "name": "teamId",
+              "type": [
+                "null",
+                {
+                  "type": "string",
+                  "avro.java.string": "String"
+                }
+              ],
+              "default": null
+            },
+            {
+              "name": "zone",
+              "type": [
+                "null",
+                "int"
+              ],
+              "default": null
+            },
+            {
+              "name": "x",
+              "type": {
+                "type": "int",
+                "description": "x coordinate"
+              }
+            },
+            {
+              "name": "y",
+              "type": {
+                "type": "int",
+                "description": "y coordinate"
+              }
+            },
+            {
+              "name": "z",
+              "type": {
+                "type": "int",
+                "description": "z coordinate"
+              }
+            },
+            {
+              "name": "sampling",
+              "type": "int"
+            },
+            {
+              "name": "velocity",
+              "type": [
+                "null",
+                "double"
+              ],
+              "default": null
+            },
+            {
+              "name": "accelleration",
+              "type": [
+                "null",
+                "double"
+              ],
+              "default": null
+            },
+            {
+              "name": "distance",
+              "type": [
+                "null",
+                "double"
+              ],
+              "default": null
+            },
+            {
+              "name": "delta_time",
+              "type": [
+                "null",
+                "double"
+              ],
+              "default": null
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

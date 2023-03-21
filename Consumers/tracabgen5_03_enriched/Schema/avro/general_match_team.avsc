@@ -1,0 +1,43 @@
+﻿{
+  "type": "record",
+  "name": "GeneralMatchTeam",
+  "namespace": "com.mas2022datascience.avro.v1",
+  "fields": [
+    {
+      "name": "HomeLongName",
+      "type": {
+        "type": "string",
+        "avro.java.string": "String"
+      }
+    },
+    {
+      "name": "HomeShortName",
+      "type": {
+        "type": "string",
+        "avro.java.string": "String"
+      }
+    },
+    {
+      "name": "HomeTeamID",
+      "type": "int"
+    },
+    {
+      "name": "AwayLongName",
+      "type": {
+        "type": "string",
+        "avro.java.string": "String"
+      }
+    },
+    {
+      "name": "AwayShortName",
+      "type": {
+        "type": "string",
+        "avro.java.string": "String"
+      }
+    },
+    {
+      "name": "AwayTeamID",
+      "type": "int"
+    }
+  ]
+}

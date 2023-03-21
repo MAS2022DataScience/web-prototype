@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub\\CAS-BGD\\SemesterarbeitCASBGD\\.NET\\Streamteam-Client\\Schema\\Schema.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub\\CAS-BGD\\SemesterarbeitCASBGD\\.NET\\Streamteam-Client\\Schema\\Schema.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\CAS-BGD\\SemesterarbeitCASBGD\\.NET\\Streamteam-Client\\Schema\\Schema.csproj",
+        "projectName": "com.mas2022datascience.avro.v1",
+        "projectPath": "C:\\GitHub\\CAS-BGD\\SemesterarbeitCASBGD\\.NET\\Streamteam-Client\\Schema\\Schema.csproj",
+        "packagesPath": "C:\\Users\\bs\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\CAS-BGD\\SemesterarbeitCASBGD\\.NET\\Streamteam-Client\\Schema\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\NuGetLocal\\packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Apache.Avro": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
